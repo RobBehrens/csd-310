@@ -59,7 +59,7 @@ def addwishlistitem(user_id): # add an item to the users wishlist
             print(mycursor.rowcount, "book added")
         else:
             print("entry invalid")
-def usermenu():
+def usermenu(): # this is the user menu module
     n = 0
     user_id = userlogin()
     while n == 0:
@@ -76,7 +76,7 @@ def usermenu():
         else:
             print("invalid entry")
 
-def mainmenu():
+def mainmenu(): # this is the main menu module
     n = 0
     while n == 0:
         print("whatabook main menu\n enter 1 to display all store locations. \n enter 2 to display all books. \n enter 3 to access user menu. \n enter 4 to exit program.")

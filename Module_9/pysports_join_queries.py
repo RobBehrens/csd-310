@@ -11,4 +11,4 @@ mycursor.execute("SELECT player_id, first_name, last_name, team_name FROM player
 myresult = mycursor.fetchall()
 print("-- listing all players and their assigned teams in database --")
 for x in myresult:
-    print(x)
+    print("player id {} first name {} last name {} team name {}".format(x[0], x[1], x[2], x[3]))
