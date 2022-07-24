@@ -1,3 +1,8 @@
+# Robert Behrens
+# 7/23/2022
+# database/Database Security
+# Henry Lee
+
 import mysql.connector
 whatabookdb = mysql.connector.connect( 
     user ="whatabook_user",
